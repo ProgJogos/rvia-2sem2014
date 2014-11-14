@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{754E951F-AAE2-6807-0D84-C745F647868B}") = "GravitarIA", "Assembly-CSharp.csproj", "{100BC162-1D66-E198-4267-B0A5D309021C}"
+EndProject
+Project("{754E951F-AAE2-6807-0D84-C745F647868B}") = "GravitarIA", "Assembly-CSharp-Editor.csproj", "{9AD227A7-3405-3396-1D96-2DD870EA21AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{100BC162-1D66-E198-4267-B0A5D309021C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100BC162-1D66-E198-4267-B0A5D309021C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100BC162-1D66-E198-4267-B0A5D309021C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100BC162-1D66-E198-4267-B0A5D309021C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD227A7-3405-3396-1D96-2DD870EA21AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD227A7-3405-3396-1D96-2DD870EA21AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD227A7-3405-3396-1D96-2DD870EA21AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD227A7-3405-3396-1D96-2DD870EA21AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+		GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal

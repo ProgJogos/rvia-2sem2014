@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Acoes.cs">
+    <Files>
+      <File FileName="Assets\AgenteBaseadoEmModelo.cs" Line="61" Column="1" />
+      <File FileName="Assets\DetectarEstado.cs" Line="1" Column="1" />
+      <File FileName="Assets\EscolherObjetivo.cs" Line="50" Column="23" />
+      <File FileName="Assets\Acoes.cs" Line="80" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
