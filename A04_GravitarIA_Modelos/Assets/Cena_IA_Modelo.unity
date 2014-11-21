@@ -86,6 +86,7 @@ GameObject:
   - 61: {fileID: 175143997}
   - 114: {fileID: 175143998}
   - 114: {fileID: 175143999}
+  - 114: {fileID: 175144000}
   m_Layer: 8
   m_Name: Inimigo
   m_TagString: Untagged
@@ -170,6 +171,17 @@ MonoBehaviour:
   pesosDestruirAlvoQuandoSeguro: .800000012
   pesosDestruirAlvoQuandoAlerta: .5
   pesosDestruirAlvoQuandoPerigo: .200000003
+--- !u!114 &175144000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 175143994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 123532f68392ea640bfbbf3435be9836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &773578102
 GameObject:
   m_ObjectHideFlags: 0
