@@ -11,12 +11,11 @@ GameObject:
   - 212: {fileID: 21200000}
   - 50: {fileID: 5000000}
   - 114: {fileID: 11400000}
-  - 114: {fileID: 11400006}
-  - 114: {fileID: 11400004}
+  - 61: {fileID: 6100000}
   - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: Boid
-  m_TagString: Untagged
+  m_TagString: Boid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.143128872, y: 1.19842136, z: 0}
+  m_LocalPosition: {x: 63.5219879, y: 53.7031326, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -48,6 +47,17 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
+--- !u!61 &6100000
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 1, y: 1}
+  m_Center: {x: 0, y: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -59,7 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de01edc509a59fd429998f89bd2a0799, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadeMaxima: 5
+  velocidadeMaxima: 20
   curvaMaxima: 5
   velocidadeDesejada: {x: 0, y: 0, z: 0}
 --- !u!114 &11400002
@@ -70,37 +80,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3843da9884be9dd4e98df8610e83d007, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f80aa1b9d1dd534894ad1816a78afdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  peso: 0
-  raio: 4
---- !u!114 &11400004
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd02afac6f960084f844fa546405fa7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  peso: 0
-  alvo: {fileID: 0}
---- !u!114 &11400006
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd02afac6f960084f844fa546405fa7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  peso: 0
-  alvo: {fileID: 0}
+  peso: 1
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
